@@ -1,0 +1,172 @@
+/* Home.css */
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .navbar-brand-custom {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+  .nav-link {
+  color: #ffffff !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: #ffeb3b !important;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+  .hover-zoom:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Parallax Effect */
+  .parallax {
+    background-image: url('https://via.placeholder.com/1920x1080/00bfff/ffffff?text=Parallax+Background');
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Add animation to buttons on hover */
+  .btn-warning:hover {
+    background-color: #ffcc00;
+    transform: translateY(-5px);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Glow effect for footer */
+  footer {
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7);
+    text-shadow: 0 0 20px #ffcc00;
+  }
+  
+  .testimonial-slider {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.testimonial-slider .card {
+  scroll-snap-align: start;
+  transition: transform 0.4s ease;
+}
+
+.testimonial-slider .card:hover {
+  transform: translateY(-5px);
+}
+
+.slide-up {
+  animation: slideUpFade 0.6s ease both;
+}
+
+@keyframes slideUpFade {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* src/styles/ClinicIntro.css */
+.clinic-section {
+  padding: 60px 0;
+  background-color: #fff;
+  color: #333;
+}
+
+.experience-badge {
+  background-color: #fdd835;
+  border-radius: 100px;
+  padding: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 850px;
+  left: 80px;
+  text-align: center;
+  z-index: 10;
+}
+
+.experience-badge .years {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.experience-badge .text {
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+.clinic-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.who-we-are {
+  font-weight: bold;
+  color: #27548A;
+  margin-bottom: 10px;
+}
+
+.clinic-title {
+  font-weight: bold;
+  font-size: 26px;
+  color: #27548A;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  margin-top: 20px;
+  font-weight: bold;
+  padding: 10px 25px;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+.bg-warning {
+  background-color: #ffe600 !important;
+}
+
+.shadow-sm:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+  transition: 0.3s ease;
+}
+
+.keunggulan-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

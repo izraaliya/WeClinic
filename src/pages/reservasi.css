@@ -1,0 +1,73 @@
+.background-img {
+  background-color: aqua;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Pastikan tinggi 100% layar */
+}
+
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  min-height: 500px; /* atau height: 500px untuk tetap */
+}
+
+/* Gaya untuk tombol spesialisasi */
+.btn-spec {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  color: white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-spec:hover {
+  transform: scale(1.05);
+}
+
+.btn-spec:nth-child(1) {
+  background-color: #ff6347; /* Warna Merah */
+}
+
+.btn-spec:nth-child(2) {
+  background-color: #ff8c00; /* Warna Oranye */
+}
+
+.btn-spec:nth-child(3) {
+  background-color: #3cb371; /* Warna Hijau */
+}
+
+.btn-spec:nth-child(4) {
+  background-color: #1e90ff; /* Warna Biru */
+}
+
+.btn-spec:nth-child(5) {
+  background-color: #8a2be2; /* Warna Ungu */
+}
+
+.btn-spec:nth-child(6) {
+  background-color: #ff1493; /* Warna Pink */
+}
+
+.btn-spec:active {
+  background-color: #4cbb17; /* Efek saat ditekan */
+}
+
+/* Mengatur tombol agar berada dalam satu baris */
+.d-flex {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+
+
