@@ -9,9 +9,14 @@ export default function Footer() {
         
         {/* Deskripsi Klinik */}
         <div>
-            <div className="h-14 mb-6 flex items-center">
-                <span className="text-[#27548A] text-xl font-bold">WeClinic</span>
-            </div>
+<div className="h-14 mb-6 flex items-center">
+  <img
+    src="/logo1.png"
+    alt="WeClinic Logo"
+    className="h-28 w-28 object-contain"
+  />
+</div>
+
           <p className="text-gray-600 text-sm leading-relaxed">
             Klinik Sehat adalah jaringan layanan kesehatan dengan lebih dari 20 cabang di seluruh Indonesia. 
             Kami menyediakan layanan medis dari berbagai spesialis serta bekerja sama dengan perusahaan untuk 
